@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewAttendanceActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/view_attendance_course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Course to view attendance"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <ListView
+        android:id="@+id/course_name_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/view_attendance_course_name"
+        android:layout_marginTop="30dp"/>
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/course_name_list_view"
+        android:layout_marginTop="30dp"/>
+
+
+
+</RelativeLayout>

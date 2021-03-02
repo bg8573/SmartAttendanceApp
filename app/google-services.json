@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "76446531946",
+    "firebase_url": "https://pant-attendance-app.firebaseio.com",
+    "project_id": "pant-attendance-app",
+    "storage_bucket": "pant-attendance-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76446531946:android:3c0f4836c382a7cd002513",
+        "android_client_info": {
+          "package_name": "com.example.pantattendanceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76446531946-vqn089h5pv03selmnq345mhurt5rhc1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYIifCMMAGTZ9cj-DiTGya0gndA25SImA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76446531946-vqn089h5pv03selmnq345mhurt5rhc1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

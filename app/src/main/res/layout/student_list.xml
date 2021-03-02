@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/name_textView"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_margin="5dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/id_textView"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_margin="5dp"
+        android:text="I.D."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/attendance_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:textSize="20sp"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_margin="5dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/student_name_textView"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_margin="5dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/student_id_textView"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_margin="5dp"
+        android:text="I.D."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/student_attendance_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:textSize="20sp"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:layout_margin="5dp"
+        android:textAlignment="center"/>
+
+</GridLayout>

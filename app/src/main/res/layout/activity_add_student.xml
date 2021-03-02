@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStudentActivity"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/add_student_select_course_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select course to add Student"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"/>
+    <ListView
+        android:id="@+id/add_student_course_name_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_student_select_course_text_view"
+        android:layout_above="@+id/name_editText"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"/>
+
+    <EditText
+        android:id="@+id/name_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Student Name"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        android:textColorHint="@android:color/black"
+        android:visibility="invisible"/>
+    <EditText
+        android:id="@+id/ID_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:layout_below="@+id/name_editText"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@android:color/black"
+        android:visibility="invisible"/>
+    <Button
+        android:id="@+id/add_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textSize="20sp"
+        android:layout_below="@+id/ID_editText"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginLeft="95dp"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"/>
+</RelativeLayout>

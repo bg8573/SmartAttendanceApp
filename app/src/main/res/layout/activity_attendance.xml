@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttendanceActivity"
+    android:background="@drawable/background">
+    <TextView
+        android:id="@+id/take_attendance_course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+     <TextView
+         android:id="@+id/student_name"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Student Name"
+         android:textColor="@android:color/black"
+         android:textSize="22sp"
+         android:layout_below="@+id/take_attendance_course_name"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="15dp"
+         android:layout_marginRight="15dp"
+         android:padding="15dp"/>
+    <TextView
+        android:id="@+id/student_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student ID"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:layout_below="@+id/student_name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/student_ID"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/presentBtn"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="Present"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/absentBtn"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="Absent"
+            android:textAlignment="center" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/linear_layout"/>
+</RelativeLayout>
